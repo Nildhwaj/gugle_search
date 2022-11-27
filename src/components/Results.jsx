@@ -5,7 +5,7 @@ import { Loading } from './Loading';
 import { useResultContext } from '../contexts/ResultContextProvider';
 
 export const Results = () => {
-  const {getResults, searchResults, isLoading, searchTerm, setSearchTerm, } = useResultContext();
+  const {getResults, searchResults, isLoading, searchTerm } = useResultContext();
   const location = useLocation();
   
   useEffect(() => {
